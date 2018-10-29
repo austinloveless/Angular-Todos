@@ -1,6 +1,6 @@
 # Angular Todo
 
-##Todo App Functionality
+## Todo App Functionality
 
 User is able to add todos
 User is able to Delete todo

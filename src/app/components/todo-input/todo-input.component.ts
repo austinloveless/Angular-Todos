@@ -7,7 +7,7 @@ import { TodoService } from "../../services/todo.service";
   styleUrls: ["./todo-input.component.css"]
 })
 export class TodoInputComponent implements OnInit {
-  private todoText: String;
+  private todoText: string;
 
   constructor(private todoService: TodoService) {
     this.todoText = "";
