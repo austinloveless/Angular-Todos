@@ -1,5 +1,20 @@
+<div class="todo-input-wrapper">
+  <input
+  (keyup.enter)="createTodo(todo)" #todo
+  type="text"
+  />
+</div>
 <div class="todoWrapper">
-  <button class="removeTodo" (click)="removeTodo()">Remove Todo!</button>
-  {{todo.text}}
+  <ul *ngFor="let todo of todos">
+<li>
+  {{todo.todo}}
+  <button
+   class="removeTodo"
+   (click)="deleteTodo(todo)">
+   Delete Todo!
+ </button>
 
+</li>
+
+  </ul>
 </div>

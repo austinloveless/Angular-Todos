@@ -3,6 +3,19 @@
   text-align: left;
   margin-bottom: 10px;
 }
+.updateTodo {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: blue;
+  border-color: blue;
+  background-color: transparent;
+}
 .removeTodo {
   margin-right: 20px;
   margin-bottom: 10px;
@@ -12,7 +25,42 @@
   border-radius: 3px;
   border-style: solid;
   padding: 8px;
-  color: rgba(203, 20, 32, 0.4);
-  border-color: rgba(203, 20, 32, 0.4);
+  color: red;
+  border-color: red;
   background-color: transparent;
+}
+
+.todo-input-wrapper {
+  margin-bottom: 20px;
+}
+.btn {
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+}
+
+.btn-primary {
+  color: rgba(73, 204, 249, 1);
+  border-color: rgba(73, 204, 249, 1);
+  background-color: transparent;
+}
+
+input {
+  width: 80%;
+  border: none;
+  border-top: 2px solid rgba(73, 204, 249, 1);
+  border-bottom: 2px solid rgba(73, 204, 249, 1);
+  margin-right: 10px;
+  padding: 5px;
+  line-height: 17px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+  border-top: 2px solid rgba(73, 204, 249, 1);
+  border-bottom: 2px solid rgba(73, 204, 249, 1);
 }
